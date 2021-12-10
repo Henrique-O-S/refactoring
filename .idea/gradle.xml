@@ -3,9 +3,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/__MACOSX/refactoring" />
-        <option name="gradleJvm" value="corretto-16" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/__MACOSX/refactoring" />
@@ -13,6 +14,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/refactoring" />
         <option name="gradleJvm" value="corretto-16" />
