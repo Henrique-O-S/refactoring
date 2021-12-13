@@ -30,15 +30,6 @@ public class TreeTest {
     }
 
     @Test
-    public void testTreeSetLocation() {
-        tree.setLocation("loclat", "loclon", "locname");
-        assertEquals(tree.plantedAt, date);
-        assertEquals(tree.locationLatitude, "loclat");
-        assertEquals(tree.locationLongitude, "loclon");
-        assertEquals(tree.locationName, "locname");
-    }
-
-    @Test
     public void testToString() {
         String result = tree.toString();
         assertEquals("Tree planted at Sat Aug 31 10:20:56 WEST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)", result);

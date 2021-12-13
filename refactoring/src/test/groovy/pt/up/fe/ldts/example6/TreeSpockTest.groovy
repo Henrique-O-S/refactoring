@@ -21,17 +21,6 @@ class TreeSpockTest extends Specification {
             tree.locationName == "FEUP"
     }
 
-    def 'Tree Set Location'() {
-        given:
-            tree.setLocation("loclat", "loclon", "locname")
-
-        expect:
-            tree.plantedAt == date
-            tree.locationLatitude == "loclat"
-            tree.locationLongitude == "loclon"
-            tree.locationName == "locname"
-    }
-
     def 'Tree to String'() {
         when:
             def result = tree.toString()
