@@ -16,7 +16,6 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
     testImplementation 'org.codehaus.groovy:groovy-all:3.0.8'
-    errorprone("com.google.errorprone:error_prone_core:0.47.0")
 }
 test {
     useJUnitPlatform()

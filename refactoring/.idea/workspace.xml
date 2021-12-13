@@ -13,10 +13,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/pt.up.fe.ldts.example3.SimpleOrderSpockTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/pt.up.fe.ldts.example3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-pt.up.fe.ldts.example3.SimpleOrderSpockTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example3/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example3/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example6/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example6/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +95,13 @@
       <recent name="pt.up.fe.ldts.example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleOrderSpockTest">
-    <configuration name="ShapeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TreeSpockTest">
+    <configuration name="OrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example2.ShapeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example1.OrderTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -113,12 +117,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeTest.getAreaRectangle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example2.ShapeTest.getAreaRectangle&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example6.TreeSpockTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -134,12 +138,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleOrderSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example3.SimpleOrderSpockTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example6.TreeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -155,12 +159,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleOrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TurtleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example3.SimpleOrderTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example5.TurtleTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -176,12 +180,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'pt.up.fe.ldts.example3'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WorkerSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example3.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example4.WorkerSpockTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -199,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SimpleOrderSpockTest" />
-        <item itemvalue="Gradle.SimpleOrderTest" />
-        <item itemvalue="Gradle.Tests in 'pt.up.fe.ldts.example3'" />
-        <item itemvalue="Gradle.ShapeTest" />
-        <item itemvalue="Gradle.ShapeTest.getAreaRectangle" />
+        <item itemvalue="Gradle.TreeSpockTest" />
+        <item itemvalue="Gradle.TreeTest" />
+        <item itemvalue="Gradle.OrderTest" />
+        <item itemvalue="Gradle.TurtleTest" />
+        <item itemvalue="Gradle.WorkerSpockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +224,7 @@
       <workItem from="1638866862555" duration="3227000" />
       <workItem from="1638883122796" duration="130000" />
       <workItem from="1639147774221" duration="4661000" />
-      <workItem from="1639405481086" duration="1707000" />
+      <workItem from="1639405481086" duration="4470000" />
     </task>
     <servers />
   </component>
@@ -241,6 +245,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pt/up/fe/ldts/example4/WorkerTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

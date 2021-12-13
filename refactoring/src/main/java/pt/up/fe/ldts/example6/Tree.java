@@ -14,14 +14,10 @@ public class Tree {
 
     public Tree(Date plantedAt, String locationLatitude, String locationLongitude, String locationName){
         this.plantedAt = plantedAt;
-        this.setLocation(locationLatitude, locationLongitude, locationName);
-        this.appraisalDates = new ArrayList<>();
-    }
-
-    public void setLocation(String locationLatitude, String locationLongitude, String locationName){
         this.locationLatitude = locationLatitude;
         this.locationLongitude = locationLongitude;
         this.locationName = locationName;
+        this.appraisalDates = new ArrayList<>();
     }
 
     public String toString() {
@@ -37,11 +33,13 @@ public class Tree {
     }
 
     public boolean isNextAppraisalOverdue(){
-        Date today = new Date();
-        Date latestAppraisalDate = today;
+        Date latestAppraisalDate;
 
         if (this.appraisalDates.size() > 0) {
             latestAppraisalDate = this.appraisalDates.get(0);
+        }
+        else{
+            return false;
         }
         for(Date appraisalDate : this.appraisalDates) {
             if (latestAppraisalDate.before(appraisalDate)) {
@@ -61,6 +59,6 @@ public class Tree {
 
         Date nextAppraisalDate = calendar.getTime();
         // Appraisal is only overdue if its date is in the past
-        return nextAppraisalDate.before(today);
+        return nextAppraisalDate.before(new Date());
     }
 }
