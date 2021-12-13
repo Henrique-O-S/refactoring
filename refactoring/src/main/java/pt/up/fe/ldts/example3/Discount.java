@@ -15,12 +15,9 @@ public class Discount {
     }
 
     public double applyDiscount(double price) {
-        double discountedPrice = price;
+        if (fixed > 0) price -= fixed;
+        else if (percentage > 0) price -= price * percentage;
 
-        if (fixed > 0) discountedPrice = fixed > price ? 0 : price - fixed;
-        else if (percentage > 0) discountedPrice = price - price * percentage;
-        else discountedPrice = price;
-
-        return discountedPrice;
+        return price;
     }
 }
