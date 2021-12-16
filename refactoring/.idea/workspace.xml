@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="" />
+    <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example5/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example5/Turtle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,28 +81,7 @@
       <recent name="pt.up.fe.ldts.example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TreeSpockTest">
-    <configuration name="OrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example1.OrderTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.WorkerSpockTest">
     <configuration name="TreeSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,13 +166,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WorkerSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example4.WorkerSpockTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WorkerSpockTest" />
         <item itemvalue="Gradle.TreeSpockTest" />
         <item itemvalue="Gradle.TurtleTest" />
         <item itemvalue="Gradle.TurtleSpockTest" />
         <item itemvalue="Gradle.TreeTest" />
-        <item itemvalue="Gradle.OrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +210,10 @@
       <workItem from="1638866862555" duration="3227000" />
       <workItem from="1638883122796" duration="130000" />
       <workItem from="1639147774221" duration="4661000" />
-      <workItem from="1639405481086" duration="5039000" />
+      <workItem from="1639405481086" duration="5542000" />
+      <workItem from="1639411402646" duration="16000" />
+      <workItem from="1639428848512" duration="15000" />
+      <workItem from="1639669235237" duration="386000" />
     </task>
     <servers />
   </component>
