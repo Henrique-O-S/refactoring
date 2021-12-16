@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29e99c27-f5f5-407a-b7b5-e62936b2e696" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example5/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example5/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example3/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/up/fe/ldts/example3/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/pt/up/fe/ldts/example3/SimpleOrderSpockTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/pt/up/fe/ldts/example3/SimpleOrderSpockTest.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +82,13 @@
       <recent name="pt.up.fe.ldts.example2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WorkerSpockTest">
-    <configuration name="TreeSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SimpleOrderSpockTest">
+    <configuration name="SimpleOrderSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example6.TreeSpockTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example3.SimpleOrderSpockTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -103,12 +104,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeSpockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example6.TreeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pt.up.fe.ldts.example6.TreeSpockTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -189,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SimpleOrderSpockTest" />
+        <item itemvalue="Gradle.TurtleSpockTest" />
         <item itemvalue="Gradle.WorkerSpockTest" />
         <item itemvalue="Gradle.TreeSpockTest" />
         <item itemvalue="Gradle.TurtleTest" />
-        <item itemvalue="Gradle.TurtleSpockTest" />
-        <item itemvalue="Gradle.TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,7 @@
       <workItem from="1639405481086" duration="5542000" />
       <workItem from="1639411402646" duration="16000" />
       <workItem from="1639428848512" duration="15000" />
-      <workItem from="1639669235237" duration="386000" />
+      <workItem from="1639669235237" duration="1017000" />
     </task>
     <servers />
   </component>
